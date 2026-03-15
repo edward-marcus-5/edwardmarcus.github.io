@@ -36,11 +36,11 @@ header {
 h1 {
     color: #38bdf8;
     margin-bottom: 10px;
-    text-align: center;  #margins/layout adjustment
+    text-align: center;
 }
 
 h2 {
-    color: #22c55e; #custom color scheme
+    color: #22c55e; /* custom color scheme */
 }
 
 /* navigation bar */
