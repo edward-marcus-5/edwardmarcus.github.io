@@ -17,10 +17,14 @@ main {
   
 /* header */
 header {
+    display: flex; /* allows elements to sit side-by-side */
+    justify-content: space-between; /* pushes items to opposite sides */
+    align-items: center;  
     background-color: #020617;
-    padding: 20px;
-    text-align: center;  #margins/layout adjustment;
-    margin-bottom: 30px;
+    padding: 20px; /* Space inside the header around text/navigation */
+    text-align: center;  /* margins/layout adjustment */
+    margin-bottom: 20px;
+    
 }
 
 h1 {
@@ -45,6 +49,20 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.intro-section {
+    display: flex;              /* puts items side-by-side instead of stacked */
+    align-items: flex-start;    
+    gap: 30px;                  /* space between the text and the image */
+}
+
+.intro-section p {
+    flex: 1;                    /* allows the paragraph to take up available space */
+}
+
+.intro-section img {
+    width: 300px;               /* controls the image size */
+}
+
 p {
     max-width: 650px;
     margin: 0 auto;
@@ -52,7 +70,9 @@ p {
 }
 
 .link {
-    border: 2px solid black
+    border: 2px solid black;
+    padding: 10px 15px;
+    display: inline-block;
 }
 
 /* images */
