@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;  #margins/layout adjustment
+}
+
+p {
+    width: 400px;
+    margin: 0 auto;
+    color: blue
+}
+
+h2 {
+    color: #22c55e; #custom color scheme
+}
+
+nav a {
+    color: #facc15;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+#main {
+    color: red;
+    background-color: antiquewhite;
+}
+
+.link {
+    border: 2px solid black
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 40px;
+    background-color: #0f172a;
+    color: #e5e7eb;
+}
+
+header {
+    margin-bottom: 30px;
+}
