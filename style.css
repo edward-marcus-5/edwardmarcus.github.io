@@ -20,7 +20,7 @@ header {
     display: flex; /* allows elements to sit side-by-side */
     justify-content: space-between; /* pushes items to opposite sides */
     align-items: center;  
-    background-color: #020617;
+    background-color: #f0f1f5;
     padding: 20px; /* Space inside the header around text/navigation */
     text-align: center;  /* margins/layout adjustment */
     margin-bottom: 20px;
